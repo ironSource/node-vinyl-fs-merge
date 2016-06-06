@@ -1,6 +1,6 @@
 {
   "name": "vinyl-fs-merge",
-  "version": "0.0.5",
+  "version": "1.0.0",
   "description": "Merges file globs from multiple source directories",
   "license": "MIT",
   "author": "Vincent Weevers",
