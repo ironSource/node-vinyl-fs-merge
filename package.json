@@ -1,0 +1,35 @@
+{
+  "name": "vinyl-fs-merge",
+  "version": "0.0.5",
+  "description": "Merges file globs from multiple source directories",
+  "license": "MIT",
+  "author": "Vincent Weevers",
+  "main": "lib/index.js",
+  "files": [
+    "lib/index.js"
+  ],
+  "scripts": {
+    "build": "babel -d lib src",
+    "test": "npm run build && tape lib/test/*.js"
+  },
+  "dependencies": {
+    "through2": "~2.0.1",
+    "vinyl-fs": "~2.3.1"
+  },
+  "devDependencies": {
+    "concat-stream": "~1.5.1",
+    "tape": "~4.5.1"
+  },
+  "repository": "https://github.com/ironSource/node-vinyl-fs-merge",
+  "bugs": "https://github.com/ironSource/node-vinyl-fs-merge/issues",
+  "homepage": "https://github.com/ironSource/node-vinyl-fs-merge",
+  "keywords": [
+    "vinyl",
+    "gulp",
+    "merge"
+  ],
+  "engines": {
+    "node": ">=4.0.0",
+    "npm": ">=2.0.0"
+  }
+}
